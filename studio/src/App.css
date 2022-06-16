@@ -1,0 +1,148 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+ .fill{
+  pad: 20px;
+   border: 1px solid rgb(107, 47, 47);
+  
+   width: 400px;
+} 
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cards {
+  position: relative;
+  display: flex;
+  
+
+}
+body{
+background-image: url("https://images.unsplash.com/photo-1546708770-589dab7b22c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cm9jayUyMG11c2ljfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg") ;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+
+
+.h8name{
+
+transition: 0.8s;
+text-align: center;
+font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.h8name:hover{
+  
+border: 1px;
+background-color: rgb(255, 4, 4,0.5);
+
+
+
+}
+
+
+
+
+h8{
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+span{
+padding-top: 20px;
+
+
+}
+.aboutdown{
+padding-top: 100px;
+padding-left: 600px;
+
+}
+td{
+
+
+
+}
+td:hover{
+
+
+
+}
+.form{
+width: 500px;
+
+}
+h4{
+  
+}
+.regi{
+
+  pad: 20px;
+  border: 1px solid rgb(59, 22, 22);
+  
+  width: 400px;
+
+}
+h1{
+
+  transition: 0.8s;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+   color: aliceblue;
+  
+}
+
+h1:hover{
+  
+  border: 1px;
+  background-color: rgba(252, 0, 0, 0.733);
+  
+  
+  
+  }
+  button{
+
+    border-radius: 10px;
+
+
+  }
+  
+  
